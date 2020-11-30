@@ -1,0 +1,306 @@
+/* Main style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700;800&display=swap');
+
+
+
+page.o_main_blank {
+    width: 21cm;
+    height: 29.7cm;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* section  o_header_faktura */
+.o_header_faktura {
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.o_header-left>h6,
+.o_header-right_text>h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.48);
+    text-transform: uppercase;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.o_header-left>h4 {
+    font-family: 'Poppins', sans-serif;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+
+}
+
+.o_header-left>p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    margin: 0px;
+}
+
+.o_header_faktura {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.o_header-left {
+    width: 50%;
+}
+
+.o_header-right {
+    width: 50%;
+    align-content: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-basis: content;
+
+}
+
+/* section  o_header_title */
+
+.o_header_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.o_header_title-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.o_header_title-text>h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px !important;
+    color: #000000;
+}
+
+.o_num_faktury {
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.o_header_title-text_oryginal {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.48);
+    text-transform: uppercase;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+
+/* section  o_header_info */
+.o_header-right_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.o_header-right_text>p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    margin: 0px;
+
+}
+
+.o_header-right_text-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.o_left-text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin-right: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.o_right-text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.48) !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+/* section  o_table_price */
+.o_table_price>table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.half>table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 15px;
+    text-align: center;
+    padding: 6px;
+    align-items: center;
+}
+
+th.o_nazwa,
+td.o_nazwa {
+    text-align: left;
+}
+
+tr.o_after-line {
+    border-bottom: 1px solid #ddd;
+}
+
+.o_after-line_last {
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.34);
+}
+
+.o_razem-do-zaplaty_bg {
+    background-color: #E9E9E9;
+}
+
+.o_summa {
+    font-size: 1rem;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+.o_flex_block {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+span.o_summa-title {
+    color: rgba(0, 0, 0, 0.48);
+}
+
+.o_summa_slownie {
+    text-align: right;
+}
+
+/* section  o_footer */
+.o_footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.o_footer_box_all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.o_footer_box {
+    margin: auto;
+    width: 150px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.o_text_center {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 15px;
+    text-align: center;
+    padding: 0px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.68);
+}
+
+
+/* section  o_num_list */
+.o_num_list {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.o_text_r {
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 15px;
+    padding: 0px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.68);
+}
+.half {
+    width: 50%;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 60px;
+
+}
+section.o_main_blank {
+    width: 21cm;
+    height: 29.7cm;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+}
+

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@300;400;700;800&display=swap');
+
+body {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+}
+
+
+p {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    color: #000 !important;
+}
+
+section.o_main_blank {
+    margin: auto;
+    width: 21cm;
+    height: 29.7cm;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+}
+
+.o_padding_x {
+    padding: 25px 0px;
+}
+
+.o_header-image>img {
+    width: 25%;
+    height: auto;
+    position: relative;
+    left: 25px;
+}
+
+.o_position {
+    padding: 25px ;
+    position: relative;
+}
+
+
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.48);
+    text-transform: uppercase;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    margin: 0px;
+}
+
+.o_header_owner_bot {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #ccccccd6;
+}
+
+.o_header_owner_top {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-top: 2px solid #ccccccd6;
+    padding: 25px 0px;
+}
+
+.o_header-image {
+    width: 100%;
+}
+
+
+
+/* пример */
+/* .o_header-right_text-block {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    /* display: block; */
+    /* flex-direction: row;
+    justify-content: space-between; */
+/* } */ 
+
+
+th,
+td {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 15px;
+    text-align: center;
+    padding: 6px;
+    align-items: center;
+}
+
+.o_info {
+    background-color: #4285F4;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.o_btn_info {
+    display: block;
+    letter-spacing: 2px;
+    font-size: 13px;
+    color: #ffffff !important;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000 !important;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    width: max-content;
+    margin: 10px auto;
+}
+
+.o_plr {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    color: #ffffff !important;
+    text-align: center;
+    font-weight: 400 !important;
+}
+
+.o_text_center {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 15px;
+    text-align: center;
+    padding: 0px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.68);
+}
+
+
+
+.o_text_r {
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 15px;
+    padding: 0px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.68);
+}
+
+/* Additional style and media requests CSS */
+
+@media print {
+    section.o_main_blank {
+        margin: auto;
+        width: 21cm;
+        height: 29.7cm;
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+}
