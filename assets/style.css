@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+@font-face {
+    font-family: 'Orpheus_Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Tangerine'), url('/assets/Orpheus_Pro.otf') format('truetype');
+}
+
+body {
+    font-family: 'Orpheus_Pro', serif;
+    font-size: 48px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Orpheus_Pro', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+
+}
+
+h4 {
+    font-family: 'Orpheus_Pro', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 54px;
+    color: black;
+    font-style: normal;
+
+}
+
+h2 {
+    font-family: 'Orpheus_Pro', serif;
+    font-weight: 700;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.cards {
+    transition: 2s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row nowrap;
+    padding: 25px 10%;
+    justify-content: center;
+}
+
+.item {
+    transition: 1s;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.item:hover {
+
+    color: rgb(158, 131, 131)(56, 22, 22);
+    transition: 1.5s ;
+    background-color: #bee9e8;
+    border-radius: 20%;
+    -webkit-box-shadow: inset 7px 6px 25px -10px rgba(0, 0, 0, 0.82);
+    -moz-box-shadow: inset 7px 6px 25px -10px rgba(0, 0, 0, 0.82);
+    box-shadow: inset 7px 6px 25px -10px rgba(0, 0, 0, 0.82);
+    -webkit-box-shadow: 7px 6px 17px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 6px 17px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 6px 17px -10px rgba(0, 0, 0, 0.75);
+}
+
+.ct {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hello_text {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    max-width: 50%;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+@media screen and (max-width: 550px) {
+    .cards {
+        flex-direction: column;
+
+    }
+}
