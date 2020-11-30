@@ -65,6 +65,7 @@ img {
 }
 
 .item:hover {
+    cursor: pointer;
     z-index: 20;
     transform: scale(1.2);
     color: rgb(158, 131, 131)(56, 22, 22);
