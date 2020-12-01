@@ -9,29 +9,86 @@
 </head>
 
 <body>
-    <h4 class="hello_text">All work</h4>
-    <div class="cards">
-        <div class="item">
-            <a href="/bike/faktura/index.html">
-            <img src="assets/img/12.png" alt="">
-            <p class="ct">Invoice</p>
-        </a>
+
+    <h2>PORTFOLIO</h2>
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+        <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+        <button class="btn" onclick="filterSelection('people')"> People</button>
+    </div>
+
+    <div class="row">
+        <div class="column nature">
+            <div class="content">
+                <img src="assets/img/01.png" alt="Mountains" style="width:100%">
+                <h4>Mountains</h4>
+                <p class="ct">Lorem ipsum dolor..</p>
+            </div>
         </div>
-        <div class="item">
-            <a href="/bike/owner-faktura/owner_tiket.html">
-            <img src="assets/img/02.png" alt="">
-            <p class="ct">Owners invoice</p>
-        </a>
+        <div class="column nature">
+            <div class="content">
+                <img src="assets/img/02.png" alt="Lights" style="width:100%">
+                <h4>Lights</h4>
+                <p class="ct">Lorem ipsum dolor..</p>
+            </div>
         </div>
-        <div class="item">
-            <a href="/bike/mail/main-mail.html">
-                <img src="assets/img/03.png" alt="">
-                <p class="ct">Email structure</p>
-            </a>
+        <div class="column nature">
+            <div class="content">
+                <img src="assets/img/03.png" alt="Nature" style="width:100%">
+                <h4>Forest</h4>
+                <p class="ct">Lorem ipsum dolor..</p>
+            </div>
         </div>
+
+        <div class="column cars">
+            <div class="content">
+                <img src="assets/img/04.png" alt="Car" style="width:100%">
+                <h4>Retro</h4>
+                <p class="ct">Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column cars">
+            <div class="content">
+                <img src="assets/img/05.png" alt="Car" style="width:100%">
+                <h4>Fast</h4>
+                <p class="ct">Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column cars">
+            <div class="content">
+                <img src="assets/img/06.png" alt="Car" style="width:100%">
+                <h4>Classic</h4>
+                <p class="ct">Lorem ipsum dolor..</p>
+            </div>
+        </div>
+
+        <div class="column people">
+            <div class="content">
+                <img src="assets/img/07.png" alt="People" style="width:100%">
+                <h4>Girl</h4>
+                <p class="ct">Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column people">
+            <div class="content">
+                <img src="assets/img/08.png" alt="People" style="width:100%">
+                <h4>Man</h4>
+                <p class="ct">Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column people">
+            <div class="content">
+                <img src="assets/img/09.png" alt="People" style="width:100%">
+                <h4>Woman</h4>
+                <p class="ct">Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <!-- END GRID -->
     </div>
 
 
+    <script src="assets/filter.js"></script>
 </body>
 
 </html>
