@@ -1,6 +1,6 @@
-# bike
+# portfolio
 
-[bike](https://github.com/oleksiykalashnyk/bike)  ([demo](https://oleksiykalashnyk.github.io/bike/index.html))
+[portfolio](https://github.com/oleksiykalashnyk/portfolio)  ([demo](https://oleksiykalashnyk.github.io/portfolio/index.html))
 
 
 **Olek Kalashnyk**
